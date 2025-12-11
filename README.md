@@ -1,3 +1,5 @@
+https://eshabhamra.github.io/Ma1805---final-project/
+
 My memory scrapbook - 
 
 This project is an interactive digital scrapbook that explores how young people record and revisit their memories through smartphone media. The page contains a series of personal photos, each of which opens into a short video when clicked. It is styled like a handmade scrapbook, reflecting the creative and aesthetic ways that people, especially younger generations, curate and present their identity online. The design draws inspiration from social platforms and digital archives where memories are saved, displayed and shared.
