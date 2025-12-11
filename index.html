@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+<script src="sketch.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Digital Scrapbook</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Handwritten font -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="scrapbook-page">
+
+        <h1 class="title">♡ My Scrapbook ♡</h1>
+        <h2 class="instruction">✧˖° click on a photo to reveal a memory ✧˖°</h2>
+
+        <div class="gallery">
+
+            <!-- 1 — America / Beach Day -->
+<div class="photo-card">
+    <img src="images/america.jpg" class="photo" 
+         onclick="openVideo('videos/america.mp4')">
+    <p class="caption">beach day when i visited florida to see my family!!!!!!</p>
+    <img src="images/decorations.png" class="decor deco1">
+</div>
+
+<!-- 2 — Taylor Swift -->
+<div class="photo-card">
+    <img src="images/taylorswift.jpg" class="photo" 
+         onclick="openVideo('videos/taylorswift.mp4')">
+    <p class="caption">Me and carys went to Taylor Swift concert, it was so good</p>
+    <img src="images/decorations.png" class="decor deco2">
+</div>
+
+<!-- 3 — Canary Islands -->
+<div class="photo-card">
+    <img src="images/holiday.jpg" class="photo" 
+         onclick="openVideo('videos/holiday.mp4')">
+    <p class="caption">Dad took us to Canary Islands. I WANNA GO BACK</p>
+    <img src="images/decorations.png" class="decor deco3">
+</div>
+
+<!-- 4 — Summertime Ball -->
+<div class="photo-card">
+    <img src="images/summertimeball.jpg" class="photo" 
+         onclick="openVideo('videos/summertimeball.mp4')">
+    <p class="caption">we saw RAYE and Sabrina carpenter…so cool</p>
+    <img src="images/decorations.png" class="decor deco4">
+</div>
+
+<!-- 5 — Wireless (PND + Drake) -->
+<div class="photo-card">
+    <img src="images/wireless.jpg" class="photo" 
+         onclick="openVideo('videos/wireless.mp4')">
+    <p class="caption">PND AND DRAKE sorry what….. I nearly died</p>
+    <img src="images/decorations.png" class="decor deco5">
+</div>
+
+<!-- 6 — Flat Christmas Dinner -->
+<div class="photo-card">
+    <img src="images/christmasdinner.jpg" class="photo" 
+         onclick="openVideo('videos/christmasdinner.mp4')">
+    <p class="caption">we had a cute flat christmas dinner</p>
+    <img src="images/decorations.png" class="decor deco6">
+</div>
+
+<!-- 7 — RHUL Christmas Tree  -->
+<div class="photo-card">
+    <img src="images/flat.jpg" class="photo" 
+         onclick="openVideo('videos/flat.mp4')">
+    <p class="caption">saw the RHUL christmas tree turn on</p>
+    <img src="images/decorations.png" class="decor deco7">
+</div>
+
+<!-- 7 — Diwali 2025  -->
+<div class="photo-card">
+    <img src="images/diwali.jpg" class="photo" 
+         onclick="openVideo('videos/diwali.mp4')">
+    <p class="caption">Diwali 2025, was so good!! i love the fireworks</p>
+    <img src="images/decorations.png" class="decor deco4">
+</div>
+
+<!-- 8 — Girls -->
+<div class="photo-card">
+    <img src="images/girls.jpg" class="photo" 
+         onclick="openVideo('videos/girls.mp4')">
+    <p class="caption">me, Lilly and Ana</p>
+    <img src="images/decorations.png" class="decor deco1">
+</div>
+
+<!-- 9 — Me / Outfit -->
+<div class="photo-card">
+    <img src="images/me.jpg" class="photo" 
+         onclick="openVideo('videos/me.mp4')">
+    <p class="caption">i love the fit</p>
+    <img src="images/decorations.png" class="decor deco2">
+</div>
+
+<!-- 10 — MY birthday -->
+<div class="photo-card">
+    <img src="images/mybirthday.jpg" class="photo" 
+        onclick="openVideo('videos/mybirthday.mp4')">
+    <p class="caption">My 18th Birthday!!!!!!</p>
+    <img src="images/decorations.png" class="decor deco2">
+</div>
+
+<!-- 11 — Michael and adem / Running race -->
+<div class="photo-card">
+    <img src="images/m&a.jpg" class="photo" 
+        onclick="openVideo('videos/m&a.mp4')">
+    <p class="caption">running race gone wrong!!!!!!</p>
+    <img src="images/decorations.png" class="decor deco3">
+</div>
+
+<!-- 12 — Me and Lilly / Winter Wonderland Dupe -->
+<div class="photo-card">
+    <img src="images/meandlilly.jpg" class="photo" 
+        onclick="openVideo('videos/meandlilly.mp4')">
+    <p class="caption">cute winterwonderland dupe</p>
+    <img src="images/decorations.png" class="decor deco3">
+</div>
+
+
+
+        </div>
+    </div>
+
+    <!-- POPUP FOR VIDEOS -->
+    <div id="videoPopup" class="popup">
+        <span class="close" onclick="closePopup()">×</span>
+        <video controls id="popupVideo"></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
