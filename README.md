@@ -1,6 +1,6 @@
 https://eshabhamra.github.io/Ma1805---final-project/
 
--Due to GitHub file size limitations, the videos used in this project are not uploaded to the GitHub repository. They are included in the final ZIP file submitted on Moodle, where the full project runs correctly.-
+-Due to GitHub file size limitations, the videos used in this project are not uploaded to the GitHub repository. They are included in a google drive where the project should hopefuly run smoothly, i have emailed this to tom so he will be able to see it -
 
 My memory scrapbook - 
 
